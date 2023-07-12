@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(63, 129, 129);
+    text-align: center;
+  }
+  .container1{
+    border: 15px solid cyan;
+  
+  }
+  .container2{
+    border: 15px solid deepskyblue;
+
+  }
+   
+  .container3{
+    border: 15px solid rgb(34, 80, 128);
+
+  }
+  .container4{
+    border: 15px solid rgb(34, 80, 128);
+
+  }
+  .container5{
+    border: 15px solid rgb(34, 80, 128);
+
+  }
+  

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS task 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="body"></div><hr>
+
+    <section class="container1">
+        <h1><u>Remove Extra White Space</u></h1>
+        <textarea style="white-space: pre-wrap;" id="originalText" rows="4" cols="50"></textarea><br>
+        <button onclick="removeExtraSpaces()">Remove Spaces</button>
+        <br>
+        <textarea style="white-space: pre-wrap;" id="cleanedText" rows="4" cols="50" readonly></textarea>
+    </section>
+    <hr>
+
+
+     <section class="container2">
+     <h1><u>Array Copy using forEach()</u></h1>
+     <div>
+       <h2>Original Array</h2>
+       <ul style="list-style-type: none;" id="originalArray"></ul>
+     </div>
+     <div>
+       <h2>Copied Array</h2>
+       <ul style="list-style-type: none;" id="copiedArray"></ul>
+     </div>
+    </section>
+     <hr>
+
+     <section class="container3">
+        <h1><u>Check Students' Pass Status</u></h1>
+        
+        <form>
+          <label for="student1">Student 1 Grade:</label>
+          <input type="text" id="student1" class="grade"><br><br>
+          
+          <label for="student2">Student 2 Grade:</label>
+          <input type="text" id="student2" class="grade"><br><br>
+          
+          <label for="student3">Student 3 Grade:</label>
+          <input type="text" id="student3" class="grade"><br><br>
+          
+          <button type="button" style="color: aquamarine; background-color: cornflowerblue;" onclick="checkAllPassed()">Check Pass Status</button>
+        </form>
+      </section>
+      <hr>
+
+      
+    <section class="container4">
+        <h1><u>Add Element to Array</u></h1>
+        
+        <div>
+          <label for="elementInput">New Element:</label>
+          <input type="text" id="elementInput">
+          <button onclick="addElement()">Add Element</button>
+        </div>
+      
+        <h2>Array:</h2>
+        <ul style="list-style-type: none;" id="arrayList"></ul>
+      </section>
+        <hr>
+
+      <section class="container5">
+        <h1><u>String Sorting</u></h1>
+        <div class="input-group">
+          <input type="text" id="inputString" placeholder="Enter a string">
+          <button onclick="sortString()">Sort</button>
+        </div>
+        <div id="result"></div>
+      </section>
+
+      
+    <script src="javascript.js"></script>
+</body>
+</html>
